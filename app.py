@@ -42,6 +42,7 @@ submit=st.button("Tell me about the image")
 input_prompt = """
                You are an expert in understanding invoices. We will upload an image as invoice and you will have to answer the question based on the given invoice 
                And you are capable of finding the days difference too
+               If you do not get any relevant information kindly say not could not find relevant answer.
                """
 
 ## If ask button is clicked
