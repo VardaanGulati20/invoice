@@ -40,9 +40,11 @@ if uploaded_file is not None:
     st.image(image, caption="Uploaded Image.", use_column_width=True)
 submit=st.button("Tell me about the image")
 input_prompt = """
-               You are an expert in understanding invoices. We will upload an image as invoice and you will have to answer the question based on the given invoice 
-               And you are capable of finding the days difference too
-               If you do not get any relevant information kindly say not could not find relevant answer.
+               You are an expert in understanding invoices.
+               If you do not get any relevant information kindly say not could not find relevant answer do not put in anything random,
+               We will upload an image as invoice and you will have to answer the question based on the given invoice 
+               And in some cases are capable of finding the days difference too when applicable
+               
                """
 
 ## If ask button is clicked
