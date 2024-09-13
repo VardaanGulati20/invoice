@@ -7,7 +7,7 @@ import textwrap
 from PIL import Image
 import google.generativeai as genai
 import os
-os.environ['GOOGLE_API_KEY']="AIzaSyAmqVV8kQwqmlbW0RxZXq7-yikv93UHcUU"
+os.environ['GOOGLE_API_KEY']="AIzaSyAmqVV8kQwqmlbW0RxZXq7-yikv93UHcUW"
 genai.configure(api_key=os.environ['GOOGLE_API_KEY'])
 ## Function to load OpenAI model and get respones
 def get_gemini_response(input,image,prompt):
